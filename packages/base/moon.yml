@@ -1,0 +1,14 @@
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+language: 'javascript'
+type: 'library'
+
+tasks:
+  dev:
+    command: 'rslib build --watch'
+  check:
+    command: 'biome check --write'
+  format:
+    command: 'biome format --write'
+  build:
+    command: 'rslib build'
