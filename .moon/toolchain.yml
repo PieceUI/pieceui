@@ -1,0 +1,6 @@
+node:
+  version: '20.17.0'
+  packageManager: 'pnpm'
+  pnpm:
+    version: '9.9.0'
+
